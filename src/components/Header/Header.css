@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 375px;
+  height: 75vh;
+
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.33) inset;
+}
+
+.header-bg {
+  background-image: url('../../assets/bg_dark_pattern.png');
+  background-repeat: repeat;
+  background-blend-mode: screen;
+  margin-bottom: -4px;
+}
+
+.header-content {
+  display: flex;
+  color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  background: radial-gradient(
+      circle at 50% 14%,
+      rgba(3, 169, 244, 1) 20%,
+      rgba(66, 243, 222, 1) 79%
+    )
+    fixed;
+  background: conic-gradient(
+      from 205deg at 52% 45%,
+      rgba(3, 169, 244, 1) 0%,
+      rgba(66, 243, 222, 1) 50%,
+      rgba(3, 169, 244, 1) 100%
+    )
+    fixed;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0px 0px #00000000;
+  text-align: center;
+}
+
+.header-container h1 {
+  text-align: center;
+  font-size: 8rem;
+  letter-spacing: -0.31rem;
+  line-height: 106.9px;
+  opacity: 100%;
+  font-family: 'Permanent Marker', sans-serif;
+}
+.header-container p {
+  letter-spacing: 0.2rem;
+  padding: 2rem 4rem;
+  opacity: 100%;
+}
+
+.heartbeat {
+  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+  animation: heartbeat 1.5s ease-in-out infinite both;
+  -webkit-text-fill-color: white;
+}
+
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+    transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+    transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+    transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+    transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header-content {
+    display: inline;
+    margin-top: 25%;
+  }
+  .header-container h1 {
+    font-size: 5rem;
+  }
+}

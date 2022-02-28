@@ -1,0 +1,45 @@
+.footer-container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('../../assets/bg_dark_pattern.png');
+  background-repeat: repeat;
+  background-blend-mode: screen;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  min-width: 375px;
+}
+
+.footer-title {
+  color: #fff;
+  opacity: 87%;
+  padding: 1rem 1rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  opacity: 66%;
+  padding: 2rem 2rem;
+}
+
+.icon:hover {
+  opacity: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .icon {
+    padding: 1rem;
+  }
+
+  .footer-content {
+    margin-bottom: 2rem;
+  }
+}
