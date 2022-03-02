@@ -24,3 +24,13 @@ a {
 .app {
   display: flex;
 }
+
+.section__heading {
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: -0.31rem;
+  opacity: 100%;
+  font-family: 'Permanent Marker', sans-serif;
+  color: rgba(0, 215, 255, 1);
+  text-shadow: 2px 2px 10px #121212;
+}

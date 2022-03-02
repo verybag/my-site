@@ -5,7 +5,7 @@ import me from '../../assets/me.png';
 function About() {
   return (
     <div className='about-container' id='about'>
-      <h1 className='section-title'>Who I Am</h1>
+      <h1 className='section-title section__heading'>Who I Am</h1>
       <div className='about-content'>
         <img src={me} alt='me' className='me-img' />
         <p style={{ textAlign: 'left', padding: '1rem', maxWidth: '300px' }}>
