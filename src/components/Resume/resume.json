@@ -1,0 +1,142 @@
+{
+  "selectedTemplate": 6,
+  "headings": {
+    "work": "Work Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "projects": "Projects",
+    "awards": "Qualifications"
+  },
+  "basics": {
+    "name": "Michael DiSanto",
+    "email": "michael.john.disanto@gmail.com",
+    "phone": "6102130272",
+    "location": {
+      "address": "Philadelphia, PA"
+    },
+    "website": "https://mdisanto.me"
+  },
+  "education": [
+    {
+      "institution": "Drexel University",
+      "location": "Philadelphia, PA",
+      "area": "Television and New Media",
+      "studyType": "BS",
+      "startDate": "Sept 2009",
+      "endDate": "Jun 2013"
+    }
+  ],
+  "work": [
+    {
+      "company": "Technical Director",
+      "website": "",
+      "highlights": [
+        "Ensured success of national broadcasts through concise direction, attention to detail, and thorough preparation",
+        "Lead broadcast crew through an ever-changing environment ",
+        "Brought to life and combined visions of both creative and business departments"
+      ],
+      "position": "QVC, Inc",
+      "location": "West Chester, PA",
+      "endDate": "August 2020",
+      "startDate": "June 2017"
+    },
+    {
+      "highlights": [
+        "Served as the primary facilitator for cross-department communication during a live production",
+        "Positioned all other crew members for success through thorough knowledge of all aspects of the workflow",
+        "Provided any and all parts of broadcast with assistance during unforeseen obstacles"
+      ],
+      "position": "QVC, Inc",
+      "location": "West Chester, PA",
+      "startDate": "October 2015",
+      "endDate": "June 2017",
+      "company": "Assistant Director"
+    },
+    {
+      "highlights": [
+        "Recorded live events into edited, presentable packages for social media",
+        "Created graphics packages and sizzle reels",
+        null
+      ],
+      "position": "Freelance",
+      "company": "Videographer / Graphic Designer",
+      "location": "Philadelphia, PA",
+      "endDate": "2015",
+      "startDate": "2013"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React"
+      ],
+      "name": "Programming Languages"
+    },
+    {
+      "keywords": [
+        "Adobe Photoshop",
+        "Illustrator",
+        "Premiere",
+        "After Effects"
+      ],
+      "name": "Adobe Creative Suite"
+    },
+    {
+      "keywords": [
+        ""
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "keywords": [
+        null
+      ]
+    },
+    {
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React"
+      ],
+      "name": "Personal Website",
+      "url": "https://www.mdisanto.me",
+      "description": "Collection of web development projects "
+    },
+    {
+      "keywords": [
+        null
+      ]
+    },
+    {
+      "keywords": [
+        ""
+      ],
+      "description": "Founding member of QVC's nationwide digital beauty network",
+      "name": "QVC - Beauty IQ"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Javascript, HTML & CSS",
+      "summary": "Studied web development through The Odin Project, an open source coding curriculum.",
+      "date": "October 2021",
+      "awarder": "Odin Project"
+    },
+    {}
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "work",
+    "education",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
