@@ -5,6 +5,11 @@
   scroll-behavior: smooth;
 }
 
+/* BUFFERS SCROLL SIZE OF NAVBAR */
+html {
+  scroll-padding-top: 54px;
+}
+
 body {
   background-image: url('./assets/bg_dark_pattern.png');
 }

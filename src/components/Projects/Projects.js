@@ -5,10 +5,13 @@ import library from '../../assets/library.png';
 import bordle from '../../assets/bordle.png';
 import superhuman from '../../assets/superhuman.png';
 import woofpack from '../../assets/woofpack.png';
+import bvf from '../../assets/branchvalleyfarm.png';
 
 function Projects() {
   const [showSuperHuman, setShowSuperHuman] = useState(false);
+
   const [showWoofPack, setShowWoofPack] = useState(false);
+  const [showBVF, setShowBVF] = useState(false);
   return (
     <>
       <div id='projects' className='projects-wrap'>
@@ -18,10 +21,14 @@ function Projects() {
             className='project-content'
             onClick={() => setShowSuperHuman(!showSuperHuman)}
           >
-            <div className='project-image-container'>
-              <img src={superhuman} alt='project' />
-            </div>
-            <h2 className='project-title'>SUPER HUMAN</h2>
+            <a href='#shdetails'>
+              <div className='project-image-container'>
+                <img src={superhuman} alt='project' />
+              </div>
+            </a>
+            <h2 className='project-title' id='shdetails'>
+              SUPER HUMAN
+            </h2>
             <p className='project-desc'>Product Design</p>
             <div className={`details ${showSuperHuman ? 'visible' : ''}`}>
               <p className='project-details'>
@@ -29,17 +36,23 @@ function Projects() {
                 harmonized design through consistent typography, logo creation,
                 and color design.
               </p>
-              <img src={superhuman} alt='' />
+              <a href='#projects'>
+                <img src={superhuman} alt='' />
+              </a>
             </div>
           </div>
           <div
             className='project-content'
             onClick={() => setShowWoofPack(!showWoofPack)}
           >
-            <div className='project-image-container'>
-              <img src={woofpack} alt='graphic design case study' />
-            </div>
-            <h2 className='project-title'>woofpack</h2>
+            <a href='#woofdetails'>
+              <div className='project-image-container' id='woofpack'>
+                <img src={woofpack} alt='graphic design case study' />
+              </div>
+            </a>
+            <h2 className='project-title' id='woofdetails'>
+              woofpack
+            </h2>
             <p className='project-desc'>Packaging and Product Design</p>
             <div className={`details ${showWoofPack ? 'visible' : ''}`}>
               <p className='project-details'>
@@ -47,9 +60,35 @@ function Projects() {
                 (a la barkbox). I took an existing product, and created an
                 entirely new and fresh brand identity & logo.
               </p>
-              <img src={woofpack} alt='' />
+              <a href='#woofpack'>
+                <img src={woofpack} alt='' />
+              </a>
             </div>
           </div>
+
+          <div className='project-content' onClick={() => setShowBVF(!showBVF)}>
+            <a href='#bvfdetails'>
+              <div className='project-image-container' id='bvf'>
+                <img src={bvf} alt='Client Website Design' />
+              </div>
+            </a>
+            <h2 className='project-title' id='bvfdetails'>
+              Branch Valley Farm
+            </h2>
+            <p className='project-desc'>Client Website Design</p>
+            <div className={`details ${showBVF ? 'visible' : ''}`}>
+              <p className='project-details'>
+                Branch Valley Farm is a local dairy goat farm and apiary. The
+                design is responsive across all screen sizes, follows a cohesive
+                color scheme, and accomplishes all of their primary business
+                goals.
+              </p>
+              <a href='#bvf'>
+                <img src={bvf} alt='' />
+              </a>
+            </div>
+          </div>
+
           <div className='project-content'>
             <div className='project-image-container'>
               <a href='https://homemovies.mdisanto.me'>

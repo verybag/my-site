@@ -17,8 +17,8 @@ function About() {
         <p style={{ textAlign: 'left', padding: '1rem', maxWidth: '300px' }}>
           My years working in live television have instilled in me a desire for
           constant improvement and mastery of my craft. My passion for learning
-          combined with the endless world of web development present me with
-          infinite possibilities and solutions.
+          combined with the endless worlds of graphic design & web development
+          present me with infinite possibilities and solutions.
         </p>
       </div>
     </div>
