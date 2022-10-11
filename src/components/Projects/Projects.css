@@ -15,6 +15,10 @@
   min-width: 375px;
 }
 
+.fullImage {
+  opacity: 100;
+}
+
 .projects-container {
   display: flex;
   flex-direction: row;
