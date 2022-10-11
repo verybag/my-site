@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-site/static/css/main.49bb0f33.css",
-    "main.js": "/my-site/static/js/main.2dc24621.js",
+    "main.js": "/my-site/static/js/main.98c4dc7f.js",
     "static/media/processmag.png": "/my-site/static/media/processmag.a56970d218cc6780835d.png",
     "static/media/woofpack.png": "/my-site/static/media/woofpack.285a73a161c42d625e5a.png",
     "static/media/processmag_cover.png": "/my-site/static/media/processmag_cover.6cfa9cb256ea4ea05eac.png",
@@ -9,16 +9,17 @@
     "static/media/branchvalleyfarm.png": "/my-site/static/media/branchvalleyfarm.0c7932107c2ef6940b2a.png",
     "static/media/otherhalf_full.png": "/my-site/static/media/otherhalf_full.be5c3f29c5bdd3e658ab.png",
     "static/media/me.png": "/my-site/static/media/me.eefa6438b3a8b2e7ef75.png",
+    "static/media/monmouth.png": "/my-site/static/media/monmouth.30b41da0ec7d5286b95d.png",
     "static/media/home-movies.png": "/my-site/static/media/home-movies.ebe9b93dfe67f5e25c9f.png",
     "static/media/otherhalf_500.png": "/my-site/static/media/otherhalf_500.41f20ec9c21576fd3d24.png",
     "static/media/library.png": "/my-site/static/media/library.743a20dcb81316ae1ba4.png",
     "static/media/bordle.png": "/my-site/static/media/bordle.2b8c6f89fb0040f3a239.png",
     "index.html": "/my-site/index.html",
     "main.49bb0f33.css.map": "/my-site/static/css/main.49bb0f33.css.map",
-    "main.2dc24621.js.map": "/my-site/static/js/main.2dc24621.js.map"
+    "main.98c4dc7f.js.map": "/my-site/static/js/main.98c4dc7f.js.map"
   },
   "entrypoints": [
     "static/css/main.49bb0f33.css",
-    "static/js/main.2dc24621.js"
+    "static/js/main.98c4dc7f.js"
   ]
 }
